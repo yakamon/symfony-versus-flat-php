@@ -65,3 +65,9 @@ INSERT INTO post (title, body, created_at) VALUES
   - 普段どおり php-fpm との連携周りで迷った
   - mkcert で SSL 証明書を発行した
   - SSL 設定で迷った
+
+# ハンズオンログ
+
+## A Simple Blog in Flat PHP
+
+すべてベタ書きの PHP は初めて書いた。
