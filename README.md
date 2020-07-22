@@ -71,3 +71,7 @@ INSERT INTO post (title, body, created_at) VALUES
 ## A Simple Blog in Flat PHP
 
 すべてベタ書きの PHP は初めて書いた。
+
+## Isolating the Presentation
+
+テンプレートに HTML を押しのけるだけでもだいぶ見栄えはよくなる。
