@@ -75,3 +75,12 @@ INSERT INTO post (title, body, created_at) VALUES
 ## Isolating the Presentation
 
 テンプレートに HTML を押しのけるだけでもだいぶ見栄えはよくなる。
+
+## Isolating the Application (Domain) Logic
+
+- 関数によるコネクションの接続・切断が登場。
+- index.php がかなりシンプルにまとまった。
+
+## Isolating the Layout
+
+- View の再利用性がまた少しだけ増した。
