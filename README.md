@@ -22,7 +22,32 @@ ROOT/
 |_ src/
 ```
 
-# 作業手順
+# DB 関連
+
+- Create "post" table
+
+```sql
+CREATE TABLE post (
+  id BIGINT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+  title VARCHAR(100),
+  body TEXT,
+  created_at DATETIME
+)
+```
+
+- Insert "post"s
+
+```sql
+INSERT INTO post (title, body, created_at) VALUES
+("titleA", "bodyA", "2020-07-23 10:00:00"),
+("titleB", "bodyB", "2020-07-23 10:00:10"),
+("titleC", "bodyC", "2020-07-23 10:00:20"),
+("titleD", "bodyD", "2020-07-23 10:00:30"),
+("titleE", "bodyE", "2020-07-23 10:00:40"),
+("titleF", "bodyF", "2020-07-23 10:00:50"),
+```
+
+# 環境構築作業ログ
 
 - ディレクトリ構成を作った
   - .docker/
