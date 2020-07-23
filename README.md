@@ -100,3 +100,13 @@ INSERT INTO post (title, body, created_at) VALUES
   - `brew install composer`
   - Docker との連携で一瞬ハマった。
 - Request と Response の構築処理を Symfony に任せて楽してみた。
+
+## The Sample Application in Symfony
+
+- Symfony プロジェクトを作成した。
+- src/ 以下のソースコードを Symfony に書き換えた。
+- スクラッチからフレームワーク導入までハンズオンをやってみると、開発中にあまり触れないディレクトリやファイルの意味がわかりやすくなった。
+  - ルーティングがやってること
+  - public/index.php
+  - src/Kernel.php
+  - .env

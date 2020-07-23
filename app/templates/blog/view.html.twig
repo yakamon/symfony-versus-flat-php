@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ post.title }}{% endblock %}
+
+{% block body %}
+<h1>{{ post.title }}</h1>
+<ul>
+    <li>{{ post.body }}</li>
+    <li>{{ post.createdAt|date("Y-m-d H:i:s") }}</li>
+    <li>{{ post.updatedAt|date("Y-m-d H:i:s") }}</li>
+</ul>
+{% endblock %}

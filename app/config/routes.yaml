@@ -1,0 +1,11 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+blog_list:
+  path: /blog
+  controller: App\Controller\BlogController::list
+
+blog_view:
+  path: /blog/{id}
+  controller: App\Controller\BlogController::view
