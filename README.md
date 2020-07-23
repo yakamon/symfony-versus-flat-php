@@ -93,3 +93,10 @@ INSERT INTO post (title, body, created_at) VALUES
 
 - すべての URI をさばく受付役の Front Controller を用意することで Controller を扱いやすくした。
 - URL の自由度も高まった。
+
+## Add a Touch of Symfony
+
+- Composer をインストールした。
+  - `brew install composer`
+  - Docker との連携で一瞬ハマった。
+- Request と Response の構築処理を Symfony に任せて楽してみた。
