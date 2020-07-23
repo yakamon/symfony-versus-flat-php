@@ -88,3 +88,8 @@ INSERT INTO post (title, body, created_at) VALUES
 ## Adding a Blog "show" Page
 
 - show.php を追加してみて MVC 切り分けのメリットを実感した。
+
+## Creating the Front Controller
+
+- すべての URI をさばく受付役の Front Controller を用意することで Controller を扱いやすくした。
+- URL の自由度も高まった。
