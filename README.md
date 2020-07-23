@@ -84,3 +84,7 @@ INSERT INTO post (title, body, created_at) VALUES
 ## Isolating the Layout
 
 - View の再利用性がまた少しだけ増した。
+
+## Adding a Blog "show" Page
+
+- show.php を追加してみて MVC 切り分けのメリットを実感した。

@@ -36,3 +36,19 @@ function getAllPosts(): array
 
     return $posts;
 }
+
+function getPostById(string $id)
+{
+    $connection = openDatabaseConnection();
+
+    $query = 'SELECT created_at, title, body FROM post WHERE id = :id';
+    $statement = $connection->prepare($query);
+    $statement->bindValue(':id', $id, PDO::PARAM_STR);
+    $statement->execute();
+
+    $row = $statement->fetch(PDO::FETCH_ASSOC);
+
+    closeDatabaseConnection($connection);
+
+    return $row;
+}
